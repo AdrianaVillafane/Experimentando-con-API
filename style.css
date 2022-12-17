@@ -28,13 +28,14 @@ header {
     width: 350px;
     height: 350px;
     background-color: rgb(202, 243, 243);
-    padding: 100px;
     margin: auto;
     border: 3px solid black;
     border-radius: 20px;
     box-shadow: 5px 5px 10px 1px black;
-    text-align: center;
-    size: 250px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    
     
     
 
@@ -54,6 +55,15 @@ footer {
     box-shadow: 5px 5px 10px 1px black;
     text-align: center;
     padding: 5px;
-    position: relative;
+    
 
 }
+ .foto{
+    width: 350px;
+  position: absolute;
+  bottom: 100;
+  right: 70;
+  border: 2px solid black;
+  border-radius: 20px;
+    
+ }
